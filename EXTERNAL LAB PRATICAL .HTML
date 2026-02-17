@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Responsive Gallery Page </title>
+    <style>
+        body {
+ font-family: Arial, sans-serif;
+ background-color: #f2f2f2;
+ margin: 0;
+ padding: 0;
+        }
+.container {
+width: 350px;
+margin: 20px auto;
+background-color: #ffffff;
+border: 2px solid black;
+padding: 20px 15px;
+        }
+h2 {
+text-align: center;
+margin-bottom: 20px;
+        }
+ @media (max-width: 600px) {
+            h2 {
+                font-size: 18px;
+.grid {
+display: grid;
+grid-template-columns: 1fr;
+gap: 15px;
+        }
+.product {
+background-color: #fff;
+border-radius: 10px;
+padding: 15px;
+text-align: center;
+box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+.product img {
+ width: 50px;
+ height: 50px;
+       }
+.product h3 {
+ margin: 10px 0 5px;
+        }
+.product p {
+font-size: 14px;
+margin: 5px 0;
+color: #555;
+        }
+</style>
+</head>
+<body><div class="container">
+<h2>responsive gallery page</h2>
+<div class="grid">
+<div class="product">
+<img src="xyz" alt="image 1">
+<h3>image</h3>
+<div class="product">
+<img src="abc" alt="image2">
+<h3>image</h3>
+<div class="product">
+<img src="prq" alt=" image 3">
+<h4>image</h4>
+</div>
+<form action="#" method="post">
+<table align="center" border="1" cellpadding="5" cellspacing="0">
+<tr>
+<td>Full Name:</td>
+<td><input type="text" name="full name" placeholder="Enter your full name" required></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="email" name="email" placeholder="Enter valid email address" required></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password" placeholder="Enter password" required></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+</td>
+</tr>
+<tr>
+
+<td>Address:</td>
+<td><textarea name="address" rows="3" cols="25" placeholder="Enter your address"></textarea></td>
+</tr>
+<tr align="center">
+<td colspan="2">
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</td>
+</tr>
+</table>
+</form>
+<h5 style="font-size: 30px;">APARNA TIWARI CSE 14</h5>
+<h6 style="font-size: 22px;">2025B01010642</h6>
+
+
+</body>
+</html>
